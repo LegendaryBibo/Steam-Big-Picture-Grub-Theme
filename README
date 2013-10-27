@@ -33,3 +33,17 @@ Basically I need to know the distro class name to know what to name the icon.
 
 >Does it work with Grub 1/Legacy
 Sadly, no. Grub 1 only has support for background images.
+
+######### Steam Big Picture Grub Theme TODO list #################
+
+Move Progress bar to above buttons, but centered. Remove border and glow, but give grey background. Gradient on fill as well.
+
+Change title to "Select OS" and center
+
+Make text in list bigger
+
+Get colors and look more accurate.
+
+Figure out how to get all menu items to be capitalized.
+
+Add bokeh dots to background
