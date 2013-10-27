@@ -1,0 +1,35 @@
+Okay so for the first steps you're going to want to determine what resolutions grub supports, this can be found by installing/building hwinfo, and running
+
+hwinfo --framebuffer
+
+with root, or by rebooting and at the grub menu, open up the command line with 'C', and enter
+
+vbeinfo
+
+The outputs may be different. So after you find out your supported resolutions, download the one that matches your highest supported resolution (or the next one below it). Now to install it, just extract the tar.gz and run the install.sh script with root in a terminal. It'll ask you a few questions then install everything in its proper location.
+
+FAQ:
+> Why don't you make widescreen versions
+From experience, even when grub supports a widescreen resolution, the theme looks wonky. Also, I stick to the standard VESA BIOS Extension resolutions as a safe bet. However, you're free to experiment with any resolution independent themes.
+
+> How do I disable it?
+Open up /etc/default/grub with root in your text editor of choice and find the line that says GRUB_THEME=/some/directory then comment it out (put a '#' at the beginning of the line) or erase it, save it, then either do an
+
+update-grub
+
+with root (it's probably Ubuntu only), or run grub's mkconfig script with root (found in either /grub, /boot/grub, or /boot/grub2)
+
+You can also run grub-mkconfig -o /path/to/grub.cfg
+		 grub2-mkconfig -o /path/to/grub.cfg
+
+on your distro with root
+
+> Can you add X distro icon?
+Yes. I'd be glad to, but one thing I'd need from you is to know what to name the icon, which you can find out by opening up your grub.cfg file and locating your distro's menu entry, so you'll have a line like
+
+menuentry "Gentoo" --class gentoo --class os...
+
+Basically I need to know the distro class name to know what to name the icon.
+
+>Does it work with Grub 1/Legacy
+Sadly, no. Grub 1 only has support for background images.
