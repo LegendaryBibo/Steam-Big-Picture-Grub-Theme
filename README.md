@@ -27,10 +27,11 @@ The outputs may be different. So after you find out your supported resolutions, 
     Then either do an `update-grub` with root (it's probably Ubuntu only), or run grub's `mkconfig` script with root (found in either `/grub`, `/boot/grub`, or `/boot/grub2`)
 
     You can also run 
+
         grub-mkconfig -o /path/to/grub.cfg
         grub2-mkconfig -o /path/to/grub.cfg
 
-on your distro with root
+    on your distro with root
 
 3.  **Can you add X distro icon?**
 
