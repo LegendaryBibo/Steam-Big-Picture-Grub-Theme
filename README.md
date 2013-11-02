@@ -62,3 +62,11 @@ The outputs may be different. So after you find out your supported resolutions, 
 ####One more thing
 
 I haven't calculated the relative allignment for everything yet, so right now everything is at a fixed position and so the theme will only look right at 1600x1200. Once I have the look just right I'll deal with the allignment stuff. So yeah unless you're going to use it on a 1600x1200 screen, I don't reccomend using the theme yet.
+
+###Screenshots:
+
+**Old Version**
+![ScreenShot](http://i.imgur.com/T4pbHXT.png)
+
+**New Version**
+![ScreenShot](http://i.imgur.com/RbZttjy.png)
