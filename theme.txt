@@ -4,7 +4,7 @@
 
 # Global Property
 title-text: ""
-title-font: "Arial 20"
+title-font: "LiberationSans 20"
 title-color: "#333333"
 message-font: "Fixed Regular 13"
 message-color: "#333333"
@@ -18,12 +18,12 @@ terminal-font: "Fixed Regular 13"
 
 # Show the boot menu
 + boot_menu {
-		left = 50%-409
-		width = 800
-		top = 50%-309
-		height = 600
-		item_font = "Arial 20"
-		selected_item_font = "Arial 20"
+		left = 50%-417
+		width = 834
+		top = 375
+		height = 634
+		item_font = "LiberationSans 20"
+		selected_item_font = "LiberationSans 20"
 		item_color = "#6d7a82"
 		selected_item_color = "#2e373e"
 		item_height = 60
@@ -41,10 +41,10 @@ terminal-font: "Fixed Regular 13"
 }
 
 + image {
-		top = 80
-		left = 60
-		width = 667
-		height = 42
+		top = 290
+		left = 90
+		width = 254
+		height = 43
 		file = "title.png"
 }
 
@@ -67,12 +67,12 @@ terminal-font: "Fixed Regular 13"
 # Show a styled horizontal progress bar
 + progress_bar {
 		id = "__timeout__"
-		left = 50%-398
-		width = 796
-		top = 920
-		height = 56
+		left = 50%-389
+		width = 778
+		top = 1015
+		height = 31
 		show_text = false
-		font = "Arial 20"
+		font = "LiberationSans 20"
 		text_color = "255, 255, 255"
 		text = ""
 		bar_style = "progress_bar_*.png"
