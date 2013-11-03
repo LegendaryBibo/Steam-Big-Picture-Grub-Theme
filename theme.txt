@@ -1,5 +1,5 @@
 # GRUB2 gfxmenu Steam Big Picture theme.
-# Designed for 1600x1200 (so you can stretch it to 1920x1200 just fine). Might work for 1920x1080
+# Designed for 1600x1200 (so you can stretch it to 1920x1200 just fine). Might work for 1920x1080. Works for 800x600 and 1024x768 as well, but things get squeezed.
 # Created by Legendary Bibo
 
 # Global Property
@@ -20,8 +20,8 @@ terminal-font: "Fixed Regular 13"
 + boot_menu {
 		left = 50%-417
 		width = 834
-		top = 375
-		height = 634
+		top = 30%
+		height = 50%+34
 		item_font = "DejaVuSans 20"
 		selected_item_font = "DejaVuSans 20"
 		item_color = "#6d7a82"
@@ -41,24 +41,24 @@ terminal-font: "Fixed Regular 13"
 }
 
 + image {
-		top = 290
-		left = 90
+		top = 24%
+		left = 5%+10
 		width = 254
 		height = 43
 		file = "title.png"
 }
 
 + image {
-		top = 1071
-		left = 668
+		top = 90%
+		left = 50%-132
 		width = 264
 		height = 69
 		file = "btnEnter.png"
 }
 
 + image {
-		top = 1071
-		left = 1339
+		top = 90%
+		left = 100%-248
 		width = 188
 		height = 69
 		file = "btnNav.png"
@@ -69,7 +69,7 @@ terminal-font: "Fixed Regular 13"
 		id = "__timeout__"
 		left = 50%-389
 		width = 778
-		top = 1015
+		top = 84%+7
 		height = 31
 		show_text = false
 		font = "DejaVuSans 20"
