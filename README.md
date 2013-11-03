@@ -70,10 +70,10 @@ I haven't calculated the relative allignment for everything yet, so right now ev
 
 **New Version**
 
-###1600x1200  [OLD] (Static Placement Version)
+###1600x1200  OLD (Static Placement Version)
 ![ScreenShot](http://i.imgur.com/RbZttjy.png)
 
-###1600x1200 [NEW] (Relative Placement Version)
+###1600x1200 NEW (Relative Placement Version)
 ![ScreenShot](http://i.imgur.com/USD0JJP.png)
 
 ###1024x768
