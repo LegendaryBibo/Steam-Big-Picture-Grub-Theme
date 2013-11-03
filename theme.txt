@@ -4,7 +4,7 @@
 
 # Global Property
 title-text: ""
-title-font: "LiberationSans 20"
+title-font: "DejaVuSans 20"
 title-color: "#333333"
 message-font: "Fixed Regular 13"
 message-color: "#333333"
@@ -22,8 +22,8 @@ terminal-font: "Fixed Regular 13"
 		width = 834
 		top = 375
 		height = 634
-		item_font = "LiberationSans 20"
-		selected_item_font = "LiberationSans 20"
+		item_font = "DejaVuSans 20"
+		selected_item_font = "DejaVuSans 20"
 		item_color = "#6d7a82"
 		selected_item_color = "#2e373e"
 		item_height = 60
@@ -72,7 +72,7 @@ terminal-font: "Fixed Regular 13"
 		top = 1015
 		height = 31
 		show_text = false
-		font = "LiberationSans 20"
+		font = "DejaVuSans 20"
 		text_color = "255, 255, 255"
 		text = ""
 		bar_style = "progress_bar_*.png"
