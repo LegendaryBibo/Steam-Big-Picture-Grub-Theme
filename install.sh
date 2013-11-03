@@ -104,6 +104,7 @@ if [[ -a "GetProfileImage.sh.x" ]]; then
 	fi
 fi
 
+
 # Create theme directory.  If directory already exists, ask the user if they would like
 # to overwrite the contents with the new theme or create a new theme directory.
 Theme_Dir=$Grub_Dir/themes/$Theme_Name
