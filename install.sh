@@ -100,7 +100,7 @@ if [[ -a "GetProfileImage.sh.x" ]]; then
 		chmod +x GetProfileImage.sh.x		
 		./GetProfileImage.sh.x
 	else
-		cat themtemplate.txt > theme.txt
+		cat themetemplate.txt > theme.txt
 	fi
 fi
 
