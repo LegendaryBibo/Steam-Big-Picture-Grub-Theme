@@ -69,4 +69,20 @@ I haven't calculated the relative allignment for everything yet, so right now ev
 ![ScreenShot](http://i.imgur.com/T4pbHXT.png)
 
 **New Version**
+
+###1600x1200  [OLD] (Static Placement Version)
 ![ScreenShot](http://i.imgur.com/RbZttjy.png)
+
+###1600x1200 [NEW] (Relative Placement Version)
+![ScreenShot](http://i.imgur.com/USD0JJP.png)
+
+###1024x768
+![ScreenShot](http://i.imgur.com/bMxCQ4E.png)
+
+###800x600
+![ScreenShot](http://i.imgur.com/HxX2EsO.png)
+
+###640x480 - NOT RECOMMENDED!!
+![ScreenShot](http://i.imgur.com/l5aT9fE.png)
+
+
