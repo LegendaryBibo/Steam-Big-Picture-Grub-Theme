@@ -1,5 +1,9 @@
 #Steam Big Picture: Grub theme
 
+###Latest Screenshot
+
+![ScreenShot](http://i.imgur.com/yQCOjnR.png)
+
 Okay so for the first steps you're going to want to determine what resolutions grub supports, this can be found by installing/building `hwinfo`, and running
 
 ```
@@ -13,6 +17,18 @@ vbeinfo
 ```
 
 The outputs may be different. So after you find out your supported resolutions, download the one that matches your highest supported resolution (or the next one below it). Now to install it, just extract the tar.gz and run the `install.sh` script with root in a terminal. It'll ask you a few questions then install everything in its proper location.
+
+###Requirements:
+
+You'll need to install the mscorefonts package and the imagemagick package. On Ubuntu the command is
+
+```
+sudo apt-get install ttf-mscorefonts-installer imagemagick
+```
+
+###Known Issues:
+
+The UserName.png image needs to be converted to RGB in Gimp after installation. I'm trying to figure out why ImageMagick keeps it as Grayscale.
 
 ###FAQ:
 
@@ -47,21 +63,21 @@ The outputs may be different. So after you find out your supported resolutions, 
 
 ###Steam Big Picture Grub Theme TODO list
 
-- Move Progress bar to above buttons, but centered. Remove border and glow, but give grey background. Gradient on fill as well.
+- ~~Move Progress bar to above buttons, but centered. Remove border and glow, but give grey background. Gradient on fill as well.~~
 
-- Change title to "Select OS" and center
+- ~~Change title to "Select OS" and center~~
 
 - Make text in list bigger
 
-- Get colors and look more accurate.
+- ~~Get colors and look more accurate.~~
 
 - Figure out how to get all menu items to be capitalized.
 
-- Add bokeh dots to background
+- ~~Add bokeh dots to background~~
 
 ####One more thing
 
-I haven't calculated the relative allignment for everything yet, so right now everything is at a fixed position and so the theme will only look right at 1600x1200. Once I have the look just right I'll deal with the allignment stuff. So yeah unless you're going to use it on a 1600x1200 screen, I don't reccomend using the theme yet.
+You might noticed the GetProfileImage.sh.x and GetProfileImage.sh. The one with the .x extension is just the .sh file "compiled" with shc. The only thing different from them is that the .x file has an API key written into it.
 
 ###Screenshots:
 
