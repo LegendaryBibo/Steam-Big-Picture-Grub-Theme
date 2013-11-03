@@ -1,0 +1,80 @@
+# GRUB2 gfxmenu Steam Big Picture theme.
+# Designed for 1600x1200 (so you can stretch it to 1920x1200 just fine). Might work for 1920x1080. Works for 800x600 and 1024x768 as well, but things get squeezed.
+# Created by Legendary Bibo
+
+# Global Property
+title-text: ""
+title-font: "DejaVuSans 20"
+title-color: "#333333"
+message-font: "Fixed Regular 13"
+message-color: "#333333"
+message-bg-color: "#f2f2f2"
+desktop-image: "background.png"
+desktop-color: "#000000"
+terminal-box: "term_bkg_*.png"
+terminal-font: "Fixed Regular 13"
+
+
+
+# Show the boot menu
++ boot_menu {
+		left = 50%-417
+		width = 834
+		top = 30%
+		height = 50%+34
+		item_font = "DejaVuSans 20"
+		selected_item_font = "DejaVuSans 20"
+		item_color = "#6d7a82"
+		selected_item_color = "#2e373e"
+		item_height = 60
+		item_padding = 25
+		item_spacing = 10
+		icon_width = 48
+		icon_height = 48
+		item_icon_space = 20
+		selected_item_pixmap_style= "select_bkg_*.png"
+		menu_pixmap_style = "menu_bkg_*.png"
+		scrollbar = false
+		scrollbar_width = 17
+		scrollbar_thumb = "sb_thumb_*.png"
+		scrollbar_frame = "sb_frame_*.png"
+}
+
++ image {
+		top = 24%
+		left = 5%+10
+		width = 254
+		height = 43
+		file = "title.png"
+}
+
++ image {
+		top = 90%
+		left = 50%-132
+		width = 264
+		height = 69
+		file = "btnEnter.png"
+}
+
++ image {
+		top = 90%
+		left = 100%-248
+		width = 188
+		height = 69
+		file = "btnNav.png"
+}
+
+# Show a styled horizontal progress bar
++ progress_bar {
+		id = "__timeout__"
+		left = 50%-389
+		width = 778
+		top = 84%+7
+		height = 31
+		show_text = false
+		font = "DejaVuSans 20"
+		text_color = "255, 255, 255"
+		text = ""
+		bar_style = "progress_bar_*.png"
+		highlight_style = "progress_highlight_*.png"
+}

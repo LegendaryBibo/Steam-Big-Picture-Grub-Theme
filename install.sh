@@ -88,6 +88,22 @@ if [[ $Theme_Resolution = "any" ]]; then
 	read Theme_Resolution
 fi
 
+#Ask user if they want to display their Steam username and profile image
+if [[ -a "GetProfileImage.sh.x" ]]; then
+	echo ""
+	echo "Would you like to display your Steam profile picture and"
+	echo "username on grub?"
+	read Response
+	
+	if [[ $Response = yes || $Response = y ]]; then
+		cat themetemplate.txt > theme.txt
+		chmod +x GetProfileImage.sh.x		
+		./GetProfileImage.sh.x
+	else
+		cat themtemplate.txt > theme.txt
+	fi
+fi
+
 # Create theme directory.  If directory already exists, ask the user if they would like
 # to overwrite the contents with the new theme or create a new theme directory.
 Theme_Dir=$Grub_Dir/themes/$Theme_Name
