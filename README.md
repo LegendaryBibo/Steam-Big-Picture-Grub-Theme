@@ -28,7 +28,7 @@ sudo apt-get install ttf-mscorefonts-installer imagemagick
 
 ###Known Issues:
 
-The UserName.png image needs to be converted to RGB in Gimp after installation. The image that you have to edit will be located in /boot/grub/themes/SteamBP in Ubuntu. Other distros place this directory somewhere else. I'm trying to figure out why ImageMagick keeps it as Grayscale.
+The `UserName.png` image needs to be converted to RGB in Gimp after installation. The image that you have to edit will be located in `/boot/grub/themes/SteamBP` in Ubuntu. Other distros place this directory somewhere else. I'm trying to figure out why ImageMagick keeps it as Grayscale.
 
 ###FAQ:
 
